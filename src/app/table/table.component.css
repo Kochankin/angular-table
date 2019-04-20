@@ -1,0 +1,38 @@
+
+.table-wrapper {
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+table {
+    overflow: hidden;
+}
+thead {
+    background-color: #EFEFEF;
+    display: block;
+}
+tbody {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 250px;
+    display: block;
+}
+tr {
+    border-bottom: solid 1px lightgrey;
+}
+td, th {
+    padding: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    max-width: 200px;
+    text-align: left;
+}
+
+thead tr {
+    display: flex;
+}
+th {
+    display: block;
+}
